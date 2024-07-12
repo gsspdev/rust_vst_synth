@@ -1,0 +1,12 @@
+[package]
+name = "rust_vst_synth"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust_vst_synth"
+crate-type = ["cdylib"]
+
+[dependencies]
+vst = "0.3.0"
+rand = "0.8.5"
